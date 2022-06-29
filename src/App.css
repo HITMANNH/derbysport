@@ -1,0 +1,259 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* design footer */
+
+.thefooterbox{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+   
+   
+}
+.thefooterbox a{
+    color: white;
+}
+.thefooter{
+    background-color: #010d61;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("./img/logofooter.png") ;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position: left ;
+    margin-top: 50px;
+  
+}
+/* design partenaire */
+
+
+
+/* fin design footer */
+.sbox{
+    text-align: center;
+}
+.couvertures{
+    width: 98vw;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.navbar.active{
+    background-color: "#f8f0c2";
+    color: "#01135d";
+    transition: ".8s";
+}
+.couverturesstaf{
+    width: 99vw;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.gridsingle{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+/* design card */
+
+.container{
+    min-width: 600px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.maincard{
+    background-color: blue;
+    width: 450px;
+    height: 160px;
+    display: flex;
+    border-radius: 10px;
+    align-items: flex-end;
+    margin: 10px;
+}
+/* page effectifs */
+
+.seccont{
+    margin: 5px;
+    display: flex;
+}
+.divimage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    background-color: white;
+}
+.divtext1{
+    position: absolute;
+    z-index: 9;
+    background-color: green;
+    width: 200px;
+    height: 160px;
+    cursor: pointer;
+}
+.card:hover .boxtext .text1{
+    z-index: 4;
+}
+.card:hover .boxtext .text2{
+    z-index: 1;
+}
+
+.text1{
+    background-color: white;
+    height: 220px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 15px;
+    z-index: 2;
+}
+.text2{
+    background-color: white;
+    position: absolute;
+    margin-top: 15px;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+/*fin effectif */
+
+/* fin du desugn */
+.typejoueur{
+    color: #5497cb;
+}
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+
+/* design drawer */
+.simpletext{
+    color: #01135d;
+    cursor: pointer;    
+    margin-bottom: 0;
+    margin-top: 0;
+   
+}
+.simpletext::after{
+    content: "";
+    display: block;
+    width: 100%;
+    transform: scale(0);
+   
+}
+.simpletext:hover::after{
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    border-bottom: 5px solid #01135d;
+}
+
+/*disign du text sous le tableau */
+.texttab{
+    margin-top: 50px;   
+    margin-left: 10px;
+}
+.bouton{
+    font-size: 20px;
+}
+
+/* Slides design */
+.carcontainer{
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.slideimg{
+    width: 100vw;
+    height: 95vh;
+    object-fit: cover;
+}
+.carousel{
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-inner{
+    white-space: nowrap;
+    transition: ease .5s;
+}
+.carousel-item{
+    display: inline-block;
+     width: 100%;
+}
+
+/* fin design slides */
+/* design stade mbankomo*/
+.stademban{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+.cardcontent{
+    text-align: center;
+}
+.cardstade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* fin */
+/*design partenaire */
+.imgpartenaire{
+    width: 350px;
+    height: 300px;
+    border:"3px solid black";
+    margin: 20px;
+    display: flex;
+}
+
+
+/* design partenaire */
+.partenaires{
+background-color: gray;
+}
+/* design produit derives*/
+.imageproduitderive{
+    width: 98vw;
+}
+
+/* toolbar design */
+.thetoolbar a {
+    margin: 5px;
+}
+
+/* design grid navbar */
+.gridnavbar{
+    justify-content: flex-end;
+}
+.gridplayer{
+    padding: 0;
+    margin-bottom: -20px;
+}
+ /* design historique */
+ .texthistorique{
+    text-align: justify;
+ }
+ /* design actuamite */
+ .divsimple{
+     text-align: justify;
+ }
